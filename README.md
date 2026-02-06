@@ -10,6 +10,5 @@ Ideas:
 - Make GRC assessments more accessible to different users who are non-specialists
   
 3. AI Agents Creating Businesses
-This idea is inspired by a 2025 Nature paper where researchers built a multi-agent AI system capable of conducting end-to-end scientific research. In that work, AI agents acted as domain experts, collaborated to design research methods, and successfully created a novel nanobody design pipeline, generating 92 new nanobodies targeting SARS-CoV-2 variants.
-
-Building on this pattern, this project applies the same multi-agent architecture, but to business creation, aiming to enable AI agents to design, build, launch, and operate businesses with humans providing high-level direction and constraints.
+- This idea is inspired by a 2025 Nature paper where researchers built a multi-agent AI system capable of conducting end-to-end scientific research. In that work, AI agents acted as domain experts, collaborated to design research methods, and successfully created a novel nanobody design pipeline, generating 92 new nanobodies targeting SARS-CoV-2 variants.
+- Building on this pattern, this project applies the same multi-agent architecture, but to business creation, aiming to enable AI agents to design, build, launch, and operate businesses with humans providing high-level direction and constraints.
