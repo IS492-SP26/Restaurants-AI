@@ -1,14 +1,4 @@
 # team-project-the-four-amigos
-Ideas:
+Opening a restaurant requires coordinating knowledge across market analysis, financial planning, operations design, and regulatory compliance. However, most small business founders do not have access to multidisciplinary expert teams, and existing AI tools mainly support isolated tasks such as content generation or operational automation rather than end-to-end launch planning.
 
-1. AI Schedule Planner
-- The idea is to build a planner that helps users create realistic daily and weekly schedules by combining fixed commitments, flexible tasks with deadlines, recurring tasks, and personal goal priorities, with an AI assistant helping generate and adjust plans.
-- We have to come up with a system that is different.
-
-2. AI-Powered Risk Analysis System
-- Risk analysis system that can tailor responses to different stakeholders
-- Make GRC assessments more accessible to different users who are non-specialists
-  
-3. AI Agents Creating Businesses
-- This idea is inspired by a 2025 Nature paper where researchers built a multi-agent AI system capable of conducting end-to-end scientific research. In that work, AI agents acted as domain experts, collaborated to design research methods, and successfully created a novel nanobody design pipeline, generating 92 new nanobodies targeting SARS-CoV-2 variants.
-- Building on this pattern, this project applies the same multi-agent architecture, but to business creation, aiming to enable AI agents to design, build, launch, and operate businesses with humans providing high-level direction and constraints.
+This project explores whether a multi-agent AI system can assist aspiring restaurant owners by generating locally grounded, multi-domain launch plans with minimal human input, using Green Street in Champaign as a case study.
