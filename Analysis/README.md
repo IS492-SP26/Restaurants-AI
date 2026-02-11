@@ -1,1 +1,1 @@
-This folder contains our individual paper analysis 
+This folder contains our individual paper analysis/reflections
