@@ -12,7 +12,7 @@ This paper addresses the problem that small business owners face increasing oper
 1.	A major risk discussed in the paper is error propagation, where a mistake made by one AI agent could cascade across multiple business functions and amplify its negative impact.
 2.	Another limitation is the risk of over-reliance on AI, which could decline skills and reduced situational awareness for entrepreneurs if too much operational knowledge is abstracted away.
 # Idea this inspires for my project:
-This paper directly inspires the potential design of our project’s multi agent system, where each AI agent represents a different expert role (market analysis, financial planning, operations, and risk assessment) for planning a business. Instead of generating isolated outputs, these agents could share a common business context and coordinate their recommendations, while still allowing the user to approve or modify high impact decisions.
+This paper directly inspires the potential design of our project’s multi agent system, where each AI agent represents a different expert role (market analysis, financial planning, operations, and risk assessment) for planning a food business. Instead of generating isolated outputs, these agents could share a common business context and coordinate their recommendations, while still allowing the user to approve or modify high impact decisions.
 
 # Paper: Artificial Intelligence and Strategic Decision-Making: Evidence from Entrepreneurs and Investors
 Csaszar, F. A., Ketkar, H., & Kim, H. (2024). Artificial Intelligence and Strategic Decision-Making: Evidence from Entrepreneurs and Investors. Strategy Science, 9(4), 322–345.
@@ -28,5 +28,5 @@ This paper studies whether modern AI systems, specifically large language models
 1.	A key limitation is that LLMs rely heavily on past data, which can lead to conventional or overly generic strategies and may reduce strategic novelty if humans over trust AI outputs.
 2.	There is also a risk that widespread adoption of AI driven strategy tools could intensify competition and reduce competitive advantage, since many firms may converge on similar AI recommended strategies.
 # Idea this inspires for my project:
-This paper directly supports our idea of using AI agents to help plan a new business by showing that AI can already generate and evaluate business strategies at a human-comparable level. For our project, this suggests designing agents that act as a strategist, critic, and evaluator mirroring the paper’s use of AI for strategy generation, devil’s advocacy, and investment evaluation while keeping the human user in control of final decisions.
+This paper directly supports our idea of using AI agents to help plan a new food business by showing that AI can already generate and evaluate business strategies at a human-comparable level. For our project, this suggests designing agents that act as a strategist, critic, and evaluator mirroring the paper’s use of AI for strategy generation, devil’s advocacy, and investment evaluation while keeping the human user in control of final decisions.
 
