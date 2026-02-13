@@ -37,7 +37,7 @@ full citation: Zhang, Y., Yang, S., Bai, C., Wu, F., Li, X., Li, X., & Wang, Z. 
 
 link: https://www.semanticscholar.org/paper/Towards-Efficient-LLM-Grounding-for-Embodied-Zhang-Yang/e1b62c7ee4e22ab63e3b0c9968563e6675833e36
 
-Summary: This paper focuses on improving multi-agent LLM collaboration efficiency using Reinforced Advantage Feedback (ReAd). 
+Summary: This paper focuses on improving multi-agent LLM collaboration efficiency using Reinforced Advantage Feedback. 
 The key problem is that current multi-agent systems rely heavily on self-reflection or environmental feedback, 
 which leads to inefficient planning and excessive LLM queries. The authors introduce a reinforcement-learning-inspired advantage function 
 that helps agents evaluate whether actions contribute to final task success. This allows agents to refine plans more efficiently and coordinate more effectively. 
