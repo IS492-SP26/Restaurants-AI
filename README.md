@@ -51,7 +51,7 @@ Success: user leaves with a plan they can actually use to make decisions or talk
 ## Competitive Landscape (Existing Tools + Shortcomings)
 To better understand the current ecosystem, we reviewed several AI tools that assist with startup planning or business documentation.
 ### AI Cofounder (Startup Planning Guidance Tool)
-link: https://aicofounder.com/dashboard<img width="646" height="44" alt="image" src="https://github.com/user-attachments/assets/c0d72c60-83d5-41d7-ac37-dccee8f940b9" />
+link: https://aicofounder.com/dashboard
 
 AI Cofounder focuses on structured startup guidance. It provides:
 - Planning checklists
@@ -72,7 +72,7 @@ Limitations
 As a result, it provides guidance, but not full decision support.
 
 ### Canva AI Business Plan Generator
-link: https://www.canva.com/ai-business-plan-generator/<img width="898" height="44" alt="image" src="https://github.com/user-attachments/assets/dd09f553-3e2f-4224-bab2-5ed87db522ed" />
+link: https://www.canva.com/ai-business-plan-generator
 
 Canva’s AI business plan generator focuses on documentation and formatting support.
 
@@ -88,7 +88,7 @@ Limitations
 - No critique or multi-role reasoning process
 
 ### PrometAI (Investor-Facing Tool)
-link: https://prometai.app/<img width="436" height="44" alt="image" src="https://github.com/user-attachments/assets/8e1cfbf6-1a3c-4198-b0f8-a50baa6b8e79" />
+link: https://prometai.app
 
 PrometAI emphasizes investor-oriented outputs, such as:
 - Financial narratives
