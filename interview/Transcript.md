@@ -59,7 +59,7 @@ Risk: A tool is only useful if it aggressively identifies unrealistic labor cost
 
 ## Second Interview
 ## Interviewer: Mubtasim Raad
-## Interviewee: Anonymous, Chef’s Assistant at American Grill
+## Interviewee: Anonymous, Chef’s Assistant at American Grill (Interviewee choose not to display their name)
 ## Experience: 2 Years (Part-time Student Worker)
 ## Location: Downtown Champaign, IL
 
