@@ -1,8 +1,8 @@
-#Interviewer: Mubtasim Raad
-#Interviewee: Shah, Owner of a Family Bengali Restaurant (Jamaica, NY)
-#Experience: 17 Years in Business
-#Location: Jamaica, Queens, New York
-#Notes: Part of this interview was conducted in Bengali, the transcript below has been translated to english. 
+## Interviewer: Mubtasim Raad
+## Interviewee: Shah, Owner of a Family Bengali Restaurant (Jamaica, NY)
+## Experience: 17 Years in Business
+## Location: Jamaica, Queens, New York
+## Notes: Part of this interview was conducted in Bengali, the transcript below has been translated to english. 
 
 Q: What year did you start your restaurant business?
 Shah: Well, let’s see... if we are sitting here in 2026 and I’ve been behind this counter for 17 years, that means I opened the doors back in 2009. Back then, starting a business right after the big financial crash of 2008 was a gamble. People thought I was crazy! But I knew our community needed a place that felt like home. My family and I put everything we had into this—every penny and every hour. Starting in 2009 taught me one thing very quickly: you have to be lean and you have to be tough.
