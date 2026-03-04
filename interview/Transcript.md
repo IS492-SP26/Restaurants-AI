@@ -29,30 +29,30 @@ Shah: I don't know much about "agents," but if this tool can see around corners,
 ## Key Takeaways for Project Evaluation:
 ### 1. The "Pre-Revenue" Gap
 
-### Reality: Opening takes 1.5x longer than planned (e.g 6 months becomes 11).
+Reality: Opening takes 1.5x longer than planned (e.g 6 months becomes 11).
 
-### Risk: You must budget for "dead rent"—paying for the space while waiting on permits and utility inspections without any income.
+Risk: You must budget for "dead rent"—paying for the space while waiting on permits and utility inspections without any income.
 
 ### 2. Regulatory Sequencing
 
-### Reality: One mistake in the order of permits (like kitchen ventilation) can halt the entire project for months.
+Reality: One mistake in the order of permits (like kitchen ventilation) can halt the entire project for months.
 
-### Risk: Founders need a specific, step-by-step "order of operations" for local city departments.
+Risk: Founders need a specific, step-by-step "order of operations" for local city departments.
 
 ### 3. Seasonal Market Volatility
 
-### Reality: In a college town like Champaign, the "Ghost Town" effect (summer/winter breaks) is the biggest threat to cash flow.
+Reality: In a college town like Champaign, the "Ghost Town" effect (summer/winter breaks) is the biggest threat to cash flow.
 
-### Risk: The plan must include a strategy for who the customer is when the students are gone.
+Risk: The plan must include a strategy for who the customer is when the students are gone.
 
 ### 4. Hidden "Physical" Costs
 
-### Reality: Infrastructure issues (grease traps, plumbing, basement moisture) are $10k–$20k "surprises" that aren't in generic templates.
+Reality: Infrastructure issues (grease traps, plumbing, basement moisture) are $10k–$20k "surprises" that aren't in generic templates.
 
-### Risk: A manual site inspection or specialized consultant is often more valuable than a digital business plan.
+Risk: A manual site inspection or specialized consultant is often more valuable than a digital business plan.
 
 ### 5. The "Mean" Feedback Loop
 
-### Reality: Nice advice is not helpful.
+Reality: Nice advice is not helpful.
 
-### Risk: A tool is only useful if it aggressively identifies unrealistic labor costs or over-saturated menu concepts.
+Risk: A tool is only useful if it aggressively identifies unrealistic labor costs or over-saturated menu concepts.
