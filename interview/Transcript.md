@@ -73,7 +73,7 @@ Assistant: It's a mix of legal stuff and quality control. For safety, we’re ob
 
 ### Q: Does your chef or anyone within the business use any kind of AI tool to help the business?
 
-Assistant: The chef is pretty old- school as he doesn't trust a computer to write recipes. But we use technology that has smart logic built-in. Our ordering platform suggests how much beef to buy based on last week's sales, and delivery apps like DoorDash use algorithms to automatically adjust our prep times when we get slammed so customers don't get mad. We also use scheduling software that looks at historical data like UIUC Mom's Weekend or football games to predict how many of us need to be working. He uses it for the boring, mathematical side of the business, but never the creative side.
+Assistant: The chef is pretty old-school as he doesn't trust a computer to write recipes. But we use technology that has smart logic built-in. Our ordering platform suggests how much beef to buy based on last week's sales, and delivery apps like DoorDash use algorithms to automatically adjust our prep times when we get slammed so customers don't get mad. We also use scheduling software that looks at historical data like UIUC Mom's Weekend or football games to predict how many of us need to be working. He uses it for the boring, mathematical side of the business, but never the creative side.
 
 ### Q: What would an AI tool have to do to run your side of the business more smoothly and efficiently?
 
