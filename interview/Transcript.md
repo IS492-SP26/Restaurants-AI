@@ -26,7 +26,7 @@ Shah: Hah! In this business, "on time" is a fairy tale. I intended to open in si
 Q: I told you about the AI agent we are building... how would you want it to help you, if you were starting out today?
 Shah: I don't know much about "agents," but if this tool can see around corners, then it's worth its weight in gold. I’d want it to be a "Navigator" that tells me exactly which permits I need and in what order so I don't waste time. I'd want it to be a "Student-Cycle Predictor"—tell me when the students disappear so I can cut my staff from 10 to 3 before I lose all my money. Most importantly, it needs to be a "Mean Uncle", a critic that tells me my plan is risky, my rent is too high, or that there are already too many Biryani spots nearby. If your tool is too "nice," it’s useless to a guy like me.
 
-Key Takeaways for Project Evaluation:
+## Key Takeaways for Project Evaluation:
 1. The "Pre-Revenue" Gap
 
 Reality: Opening takes 1.5x longer than planned (e.g 6 months becomes 11).
