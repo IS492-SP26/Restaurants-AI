@@ -56,3 +56,55 @@ Risk: A manual site inspection or specialized consultant is often more valuable 
 Reality: Nice advice is not helpful.
 
 Risk: A tool is only useful if it aggressively identifies unrealistic labor costs or over-saturated menu concepts.
+
+## Second Interview
+## Interviewer: Mubtasim Raad
+## Interviewee: Anonymous, Chef’s Assistant at American Grill
+## Experience: 2 Years (Part-time Student Worker)
+## Location: Downtown Champaign, IL
+
+### Q: Hi, how long have you been in this role for?
+
+Assistant: I’ve been in this role for about two years now. I started here during my sophomore year at UIUC to help with my tuition and rent. Balancing classes with 20 to 25 hours a week in a high volume kitchen hasn't been easy. I’ve gone from washing dishes to being the chef’s right hand handling inventory, prepping the line for Friday nights, and training the new seasonal student hires.
+
+### Q: What are some food standards that the chef has to maintain at all times and how does the chef get information relevant to those standards?
+
+Assistant: It's a mix of legal stuff and quality control. For safety, we’re obsessed with temperature. Ground beef has to hit 160°F, and our walk-in coolers have to stay below 41°F. The chef gets all that info from the Champaign-Urbana Public Health District (CUPHD) guidelines and keeps a physical binder of the "Food Code" in the office. For quality, he uses "spec sheets" for every burger so they look identical every time. He also relies on me to do a manual "line check" every morning to make sure our inventory is rotated correctly. If there's a major recall or a new regulation, he usually gets an alert through our supplier’s app or the Illinois Restaurant Association.
+
+### Q: Does your chef or anyone within the business use any kind of AI tool to help the business?
+
+Assistant: The chef is pretty old- school as he doesn't trust a computer to write recipes. But we use technology that has smart logic built-in. Our ordering platform suggests how much beef to buy based on last week's sales, and delivery apps like DoorDash use algorithms to automatically adjust our prep times when we get slammed so customers don't get mad. We also use scheduling software that looks at historical data like UIUC Mom's Weekend or football games to predict how many of us need to be working. He uses it for the boring, mathematical side of the business, but never the creative side.
+
+### Q: What would an AI tool have to do to run your side of the business more smoothly and efficiently?
+
+Assistant: I need something that manages the chaos. First, a "Live Prep List." If it’s raining in downtown Champaign, foot traffic dies, and I don't want to waste hours prepping onions we won't sell. The tool should look at the weather and local event calendars to tell me exactly how much to prep each morning. I’d also love automated compliance logging, checking fridge temps every four hours is a pain, and a sensor that just texts us if a cooler fails would save a lot of stress. Finally, a scheduler that integrates with our UIUC class calendars would be huge so the chef doesn't have to scramble when someone has a midterm.
+
+### Q: How do you feel about an AI agent upgrading your menu by analyzing customer preferences?
+
+Assistant: I think it would be a lifesaver for our margins. I see the waste in the trash, we keep prepping stuff for a veggie burger that only sells twice a week just because it’s "always been on the menu." If an AI can spot that 40% of people are paying extra for jalapenos, we could just make "Signature Spicy Fries" and charge more for them. The only hurdle is the chef’s ego, the tool shouldn't just say a dish is "bad," it should explain that the price point is too high for students or the flavor profile doesn't fit the lunch rush.
+
+## Key Takeaways for Project Evaluation:
+
+### 1. The Live Prep Reality
+
+Reality: Static business plans do not account for daily environmental volatility like weather or localized theater events.
+
+Risk: Over prepping based on generic templates leads to immediate food waste and degraded profit margins.
+
+### 2. The Student Labor Friction
+
+Reality: High turnover and academic schedule conflicts (midterms/finals) create constant scheduling instability.
+
+Risk: A launch plan that lacks academic calendar awareness will face severe staffing shortages during critical peak weeks.
+
+### 3. Data-Driven Menu Engineering
+
+Reality: Restaurants often suffer from a bloated menu, maintaining low-selling items that overcomplicate the kitchen prep line.
+
+Risk: Without analyzing actual consumer modifications, founders miss high-margin signature opportunities that the market is already signaling.
+
+### 4. Invisible Compliance
+
+Reality: Manual safety logging (temperature checks) is often the first operational task to fail during a high-volume rush.
+
+Risk: Relying on human memory for health code compliance creates a major legal and safety vulnerability for the business.
