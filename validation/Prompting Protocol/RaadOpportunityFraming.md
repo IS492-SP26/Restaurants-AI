@@ -1,4 +1,4 @@
-## Market Tool Analysis & Project Validation
+## Opportunity Framing 
 
 ### AI Competitor Comparison
 | Tool | Limitation | Our Opportunity |
