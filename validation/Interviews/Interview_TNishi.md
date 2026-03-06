@@ -1,5 +1,5 @@
-#Interview 1#
-##Interviewee: Vice President of a company operating Izakaya (Japanese pubs) in Japan##
+# Interview 1
+## Interviewee: Vice President of a company operating Izakaya (Japanese pubs) in Japan
 
 Question and Answers Translated in English:
 
@@ -32,8 +32,8 @@ When it comes to simple research AI definitely does the job. But I think its als
 When thinking about getting capital form finance insitutions, you need a business plan backed up by evidence. Also think about the place in terms of getting labor and staff. For example, does your closest station connected to any universities or trade schools.
 
 
-#Interview 2: (Given same question)#
-##Interviewee: Restaurant Business Consultant specializing in new restaurant launches and operational restructuring in Japan##
+# Interview 2: (Given same question)
+## Interviewee: Restaurant Business Consultant specializing in new restaurant launches and operational restructuring in Japan
 
 Question and Answers (Translated in English)
 
