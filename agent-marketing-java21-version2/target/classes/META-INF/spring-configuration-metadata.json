@@ -1,0 +1,126 @@
+{
+  "groups": [
+    {
+      "name": "marketing",
+      "type": "com.restaurant.marketing.config.MarketingConfig",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig"
+    },
+    {
+      "name": "marketing.agent",
+      "type": "com.restaurant.marketing.config.MarketingConfig$Agent",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig",
+      "sourceMethod": "getAgent()"
+    },
+    {
+      "name": "marketing.groq",
+      "type": "com.restaurant.marketing.config.MarketingConfig$Groq",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig",
+      "sourceMethod": "getGroq()"
+    },
+    {
+      "name": "marketing.search",
+      "type": "com.restaurant.marketing.config.MarketingConfig$Search",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig",
+      "sourceMethod": "getSearch()"
+    },
+    {
+      "name": "marketing.yelp",
+      "type": "com.restaurant.marketing.config.MarketingConfig$Yelp",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig",
+      "sourceMethod": "getYelp()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "marketing.agent.allowed-origin",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Agent"
+    },
+    {
+      "name": "marketing.agent.max-tool-loops",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Agent"
+    },
+    {
+      "name": "marketing.agent.parallel-tool-calls",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Agent"
+    },
+    {
+      "name": "marketing.agent.tool-timeout-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Agent"
+    },
+    {
+      "name": "marketing.groq.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.groq.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.groq.fast-model",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.groq.max-tokens",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.groq.primary-model",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.groq.temperature",
+      "type": "java.lang.Double",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Groq"
+    },
+    {
+      "name": "marketing.search.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Search"
+    },
+    {
+      "name": "marketing.search.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Search"
+    },
+    {
+      "name": "marketing.search.max-results",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Search"
+    },
+    {
+      "name": "marketing.search.provider",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Search"
+    },
+    {
+      "name": "marketing.yelp.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Yelp"
+    },
+    {
+      "name": "marketing.yelp.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Yelp"
+    },
+    {
+      "name": "marketing.yelp.max-competitors",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Yelp"
+    },
+    {
+      "name": "marketing.yelp.search-radius",
+      "type": "java.lang.Integer",
+      "sourceType": "com.restaurant.marketing.config.MarketingConfig$Yelp"
+    }
+  ],
+  "hints": []
+}
