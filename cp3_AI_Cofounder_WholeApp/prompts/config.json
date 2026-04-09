@@ -1,0 +1,37 @@
+{
+  "agents": {
+    "marketing": {
+      "systemPromptFile": "prompts/marketing.system.md",
+      "connector": "src/lib/connectors/agentDataConnectors.ts#marketing",
+      "envModelKey": "OPENAI_FINETUNED_MARKETING_MODEL",
+      "baseModelOverrideKey": "OPENAI_FINETUNE_BASE_MARKETING_MODEL",
+      "schemaName": "marketing_agent_output"
+    },
+    "financial": {
+      "systemPromptFile": "prompts/financial.system.md",
+      "connector": "src/lib/connectors/agentDataConnectors.ts#financial",
+      "envModelKey": "OPENAI_FINETUNED_FINANCIAL_MODEL",
+      "baseModelOverrideKey": "OPENAI_FINETUNE_BASE_FINANCIAL_MODEL",
+      "schemaName": "financial_agent_output"
+    },
+    "regulatory": {
+      "systemPromptFile": "prompts/regulatory.system.md",
+      "connector": "src/lib/connectors/agentDataConnectors.ts#regulatory",
+      "envModelKey": "OPENAI_FINETUNED_REGULATORY_MODEL",
+      "baseModelOverrideKey": "OPENAI_FINETUNE_BASE_REGULATORY_MODEL",
+      "schemaName": "regulatory_agent_output"
+    },
+    "operations": {
+      "systemPromptFile": "prompts/operations.system.md",
+      "connector": "src/lib/connectors/agentDataConnectors.ts#operations",
+      "envModelKey": "OPENAI_FINETUNED_OPERATIONS_MODEL",
+      "baseModelOverrideKey": "OPENAI_FINETUNE_BASE_OPERATIONS_MODEL",
+      "schemaName": "operations_agent_output"
+    }
+  },
+  "shared": {
+    "baseModelFallbackKey": "OPENAI_FINETUNE_BASE_MODEL",
+    "apiKeyKey": "OPENAI_API_KEY",
+    "baseUrlKey": "OPENAI_BASE_URL"
+  }
+}
