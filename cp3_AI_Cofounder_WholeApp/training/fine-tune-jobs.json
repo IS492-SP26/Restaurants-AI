@@ -1,0 +1,37 @@
+{
+  "createdAtIso": "2026-04-08T21:35:28.095Z",
+  "jobs": [
+    {
+      "agent": "marketing",
+      "baseModel": "gpt-4.1-mini-2025-04-14",
+      "trainingFileId": "file-KekvsnnczJNTJLrnPsaZyS",
+      "validationFileId": "file-TJsBWMh5wAfoyYtRRkg293",
+      "fineTuneJobId": "ftjob-R7ERuGK1gSiqwts63Yj6MX7Z",
+      "status": "validating_files"
+    },
+    {
+      "agent": "financial",
+      "baseModel": "gpt-4.1-mini-2025-04-14",
+      "trainingFileId": "file-KRdVfgAsYtqXsoeonSJVeL",
+      "validationFileId": "file-QMtNocoFvREC5fc5DwmGit",
+      "fineTuneJobId": "ftjob-9r0StWCV4zysKz9NoDdpTjlZ",
+      "status": "validating_files"
+    },
+    {
+      "agent": "regulatory",
+      "baseModel": "gpt-4.1-mini-2025-04-14",
+      "trainingFileId": "file-4oqaytkQMe7b5EcGAP8mEs",
+      "validationFileId": "file-KwZE27GbKYbgWPswTnXBWk",
+      "fineTuneJobId": "ftjob-uXdTH1KmPCKy6gUqNwCff4ov",
+      "status": "validating_files"
+    },
+    {
+      "agent": "operations",
+      "baseModel": "gpt-4.1-mini-2025-04-14",
+      "trainingFileId": "file-BMv3SKszTooxPDcqe8cNh6",
+      "validationFileId": "file-Ndhry3VL2fFDrVYstWJcaG",
+      "fineTuneJobId": "ftjob-DDRIm0Ji9aaSZAUjGawFfouW",
+      "status": "validating_files"
+    }
+  ]
+}
