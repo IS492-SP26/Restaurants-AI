@@ -1,0 +1,22 @@
+{
+  "generatedAtIso": "2026-04-08T20:56:51.424Z",
+  "scenarioCount": 12,
+  "datasets": {
+    "marketing": {
+      "trainExamples": 10,
+      "validationExamples": 2
+    },
+    "financial": {
+      "trainExamples": 10,
+      "validationExamples": 2
+    },
+    "regulatory": {
+      "trainExamples": 10,
+      "validationExamples": 2
+    },
+    "operations": {
+      "trainExamples": 10,
+      "validationExamples": 2
+    }
+  }
+}
