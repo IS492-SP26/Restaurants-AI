@@ -175,9 +175,7 @@ https://restaurants-ai-48ke.vercel.app/
 
 Participants were asked to complete a realistic restaurant planning task using the tool. The task prompt was:
 
-> Imagine you are a first-time founder who wants to open a restaurant near Green Street in Champaign, Illinois. Your approximate startup budget is around $120,000. Use the web app to enter your basic information, review the AI-generated restaurant concept suggestions, select one concept, and generate a startup manual. After using the tool, answer the survey and interview questions.
-
-The study procedure was:
+> Imagine you are a first-time founder who wants to open a restaurant near Green Street in Champaign, Illinois. Choose a startup budget range based on your own preference. Use the web app to enter your basic information, review the AI-generated restaurant concept suggestions, select one concept, and generate a startup manual. After using the tool, answer the survey and interview questions.
 
 1. Participant received a short introduction to the project.
 2. Participant used the deployed web app.
@@ -264,7 +262,9 @@ The following screenshots should be included in the repository or inserted into 
 
 **Figure D1. Homepage of the deployed restaurant AI planning web application.**
 
-`[Insert screenshot or link to image here]`
+<img width="1479" height="794" alt="image" src="https://github.com/user-attachments/assets/41b36953-9bf5-478c-9302-83e73f1d779b" />
+
+
 
 **Figure D2. Basics input page where users enter location and budget information.**
 
