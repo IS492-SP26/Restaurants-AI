@@ -283,15 +283,22 @@ The following screenshots should be included in the repository or inserted into 
 
 **Figure D5. Example financial planning section.**
 
-`[Insert screenshot or link to image here]`
+<img width="764" height="932" alt="image" src="https://github.com/user-attachments/assets/1e61373f-2c82-40d1-a51a-a8b92cde096b" />
+
 
 **Figure D6. Example legal and licensing checklist section.**
 
-`[Insert screenshot or link to image here]`
+<img width="765" height="908" alt="image" src="https://github.com/user-attachments/assets/5b4bd030-194e-434e-b964-7dc85dafbc1d" />
 
-**Figure D7. Example operations or marketing guidance section.**
 
-`[Insert screenshot or link to image here]`
+**Figure D7. Example operations section.**
+
+<img width="768" height="378" alt="image" src="https://github.com/user-attachments/assets/fcc9539a-9364-4434-bd38-27228958bf5f" />
+
+**Figure D8. Example marketing section.**
+
+<img width="756" height="783" alt="image" src="https://github.com/user-attachments/assets/e2f5da00-7ec3-4487-a828-21b2e159fbc3" />
+
 
 ### Appendix E. AI Tools and Technical Disclosure
 
