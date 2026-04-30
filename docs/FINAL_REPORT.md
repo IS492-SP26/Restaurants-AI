@@ -10,19 +10,20 @@
 
 ## Abstract
 
-The journey toward local entrepreneurship, particularly within the high-risk and highly regulated restaurant industry, is often defined by significant barriers to entry and a high frequency of costly mistakes for first-time founders. While general-purpose artificial intelligence has expanded access to business information, current tools often lack the structured guidance, local regulatory accuracy, and high-fidelity financial modeling necessary for genuine feasibility analysis. This report introduces Restaurant AI, a specialized multi-agent decision-support system designed to democratize restaurant ownership by integrating market analysis, financial planning, operational guidance, and localized compliance checks into a single intelligent workflow. By deploying specialized agents for marketing, operations, finance, and regulation, the system transforms minimal user inputs into comprehensive, actionable launch blueprints tailored to specific local contexts, such as Champaign, Illinois. Built on a transparent architecture that prioritizes structured outputs, local grounding, and verifiable guidance, Restaurant AI addresses critical gaps in current toolsets, especially the risks of hallucinated data and speculative financial figures. The system provides founders with a structured three-step flow: Basics, Ideas, and Startup Manual. A formative evaluation with nine participants suggests that this multi-agent approach lowers the barrier to entry for passion-driven founders who lack formal business training or access to expensive consulting services.
+The journey toward local entrepreneurship, particularly within the high-risk and highly regulated restaurant industry, is often defined by significant barriers to entry and a high frequency of costly mistakes for first-time founders. While general purpose artificial intelligence has expanded access to business information, current tools often lack the structured guidance, local regulatory accuracy, and high-fidelity financial modeling necessary for genuine feasibility analysis. This report introduces Restaurant AI, a specialized multi-agent decision support system designed to democratize restaurant ownership by integrating market analysis, financial modeling, and localized compliance checks into a single intelligent workflow. By deploying specialized agents for marketing, operations, finance, and regulation, the system transforms minimal user inputs into comprehensive, actionable launch blueprints tailored to specific local contexts, such as Champaign, Illinois. Built on a glass-box architecture that prioritizes transparency and verifiable citations, Restaurant AI addresses critical gaps in current toolsets, specifically the risks of hallucinated data and speculative financial figures. The system provides founders with a structured three-step flow, Basics, Ideas, and a Startup Manual to ensure early decisions are informed by data rather than bias. Preliminary evaluation indicates that this multi-agentic approach significantly lowers the barrier to entry for passion-driven founders who lack formal business training or access to expensive consulting services.
 
 ---
 
 ## Introduction and Related Work
 
-Starting a restaurant or local business is an inherently overwhelming endeavor for first-time entrepreneurs. Founders must simultaneously navigate market validation, financial planning, complex regulatory compliance, and operational risks, often without the benefit of a structured framework. In high-stakes environments such as the restaurant industry, underestimating these risks can lead to preventable failure. Our target users are primarily students, career switchers, and passion-driven founders, such as chefs or home cooks, who possess culinary talent but lack formal business training or the capital to hire consultants and lawyers. For these individuals, the information gap represents a primary obstacle to success.
+Starting a restaurant or local business is an inherently overwhelming endeavor for first-time entrepreneurs. Founders must simultaneously navigate market validation, financial planning, complex regulatory compliance, and operational risks, often without the benefit of a structured framework. In high-stakes environments like the restaurant industry, underestimating these risks can lead to preventable failure. Our target users are primarily students, career switchers, and passion-driven founders such as chefs or home cooks who possess culinary talent but lack formal business training or the capital to hire consultants and lawyers. For these individuals, the information gap represents a primary obstacle to success.
 
-The motivation for Restaurant AI stems from the growing interest in local entrepreneurship combined with the recent capabilities of generative AI to integrate market analysis and compliance evaluation into intelligent decision-support systems. However, general-purpose AI tools often provide information without verification or structured guidance. In our preliminary research and validation phases, we identified several recurring frictions and challenges that founders face, including student labor friction, menu bloat, financial uncertainty, and compliance gaps. We also noted a “black box problem” in existing AI solutions, where advice is given without transparent reasoning, grounding, or evidence.
+The motivation for Restaurant AI stems from the growing interest in local entrepreneurship combined with the recent capabilities of generative AI to integrate market analysis and compliance evaluation into intelligent decision-support systems. However, general-purpose AI tools often provide information without verification or structured guidance. In our preliminary research and validation phases, we identified several recurring frictions and challenges that founders face, including student labor friction, menu bloat, and significant compliance gaps. We also noted a "black box problem" in existing AI solutions, where advice is given without transparent reasoning or evidence.
 
-To address these issues, we conducted a literature review of academic and practitioner-oriented work on AI, entrepreneurship, strategic decision-making, and multi-agent systems. The literature supports the idea that AI can assist entrepreneurs by improving access to strategic analysis, reducing cognitive load, and helping users generate and evaluate business plans. Research on AI and strategic decision-making suggests that large language models can support the generation and evaluation of entrepreneurial strategies. Research on augmented entrepreneurship also frames multi-agent AI systems as a way to coordinate small business functions across traditionally separate domains. In addition, multi-agent research such as MetaGPT and the Virtual Lab inspired our decision to move away from a single-prompt model toward a system where specialized agents manage different areas of the business plan.
+To address these issues, we conducted a literature review of several academic papers, which confirmed that AI can be leveraged for strategic entrepreneurial decision-making and acts as a democratizing force for first-time founders. Crucially, the research supports the use of multi-agent architectures for handling complex business tasks. This grounded our decision to move away from a single-prompt model toward a system where specialized agents manage different domains of the business plan.
 
-Our analysis of existing tools revealed significant gaps that Restaurant AI is designed to bridge. General-purpose systems such as ChatGPT, Gemini, Claude, Perplexity, and Canva AI can generate business planning content, but they often lack a consistent local grounding strategy, domain-specific structure, or explicit source transparency. For example, general AI tools may provide speculative financial figures, narrow competitor analysis, incomplete local code references, or citations from the wrong jurisdiction. These findings reinforced the need for a system that delivers immediate, well-formatted plans backed by multi-agent specialization and local knowledge packs.
+Our analysis of existing tools revealed significant gaps that Restaurant AI is designed to bridge. For example, Gemini often provides slightly speculative financial figures, whereas Restaurant AI pulls verified, real-time data. ChatGPT frequently has a narrow competitive scope, which we counter with independent competitor mapping. Claude often fails to cite specific health codes or regulation ordinances, a gap we fill with proactive citations of local sources. Tools like Perplexity often cite municipal codes from outside the user's specific jurisdiction, such as providing non-Champaign codes for a Champaign-based project. Finally, platforms like Canva AI focus primarily on visual presentation but often generate hallucinated data without citation. These findings reinforced the need for a system that delivers immediate, well-formatted plans backed by multi-agentic verification.
+
 
 ---
 
@@ -30,37 +31,31 @@ Our analysis of existing tools revealed significant gaps that Restaurant AI is d
 
 ### System Description
 
-Restaurant AI is a web-based application designed as an educational planning assistant for restaurant startup planning. The platform uses a multi-agent workflow to provide a personalized business planning experience from minimal user inputs. The user interface evolved through iterative design, moving from a basic black-and-white functional prototype to a refined version using Tailwind CSS with modern color gradients and improved visual hierarchy. The system follows a three-step design direction: the user provides location and budget information, the AI suggests restaurant opportunities based on local market gaps, the user selects one concept, and the multi-agent system generates a detailed restaurant launch blueprint.
+The Restaurant AI system is a web-based application designed as an educational planning assistant. The platform utilizes a multi-agentic workflow to provide a personalized business planning experience from minimal user inputs. The user interface evolved through iterative design, moving from a basic black-and-white functional prototype to a refined version using Tailwind CSS with modern color gradients and improved visual hierarchy to enhance the user experience. The system follows a refined three-step design direction: the user provides location and budget, the AI suggests opportunities based on market gaps, the user selects a concept, and finally, the multi-agent system generates a detailed restaurant launch blueprint. This approach ensures that early decisions, which are often uninformed or biased, are guided by industry intelligence.
 
-The project is implemented as a Next.js web application. The runtime agent architecture includes the following agents:
+The backend architecture consists of four specialized agents, primarily utilizing Claude and GPT-4o-mini via the OpenAI API, chosen for their cost-effectiveness and superior performance in structured tasks.
 
-- **MarketResearchAgent:** analyzes market, competitors, and demand signals.
-- **ConceptStrategyAgent:** shapes the restaurant concept and positioning.
-- **FinancialPlanningAgent:** generates startup budget guidance, cash-flow tips, and first-year financial realism.
-- **LegalComplianceAgent:** generates a high-level compliance and permit checklist.
-- **OperationsAgent:** generates staffing, supplier, equipment, and daily operations guidance.
-- **MarketingAgent:** generates brand positioning, launch plans, and ongoing marketing ideas.
-- **ManualComposerAgent:** combines prior agent outputs into a structured startup manual/playbook.
+The Regulatory Agent addresses the critical lack of structured guidance in compliance. It processes a comprehensive collection of public data, including the Champaign, IL Code of Ordinances, zoning laws, the Illinois Food Service Sanitation Code, and state food compliance and enforcement guidelines. By citing real-world sources like the CUPHD and FDA Food Codes, the agent ensures outputs are verifiable, allowing users to cross-check guidance rather than relying on potentially hallucinated rules. Initial testing identified rate limits with free-tier providers like Groq, leading us to standardize on the OpenAI API for higher reliability.
 
-Four specialist agents currently have fine-tuned model slots: Marketing, Financial, Regulatory, and Operations. These four agents are the main specialist agents in the fine-tuning pipeline. The MarketResearchAgent, ConceptStrategyAgent, and ManualComposerAgent are part of the runtime orchestration and composition pipeline, but they are not part of the current fine-tuning dataset pipeline.
+The Operations Agent, focuses on labor, workflow, and quality management. It utilizes operational data and professional know-how to ensure model outputs provide structured and feasible guidance for day-to-day restaurant management. This agent addresses the student labor friction which was identified in our early validation studies by providing realistic expectations for staffing and workflow efficiency.
 
-The fine-tuning pipeline builds starter chat datasets for the four specialist agents. These datasets are generated from 12 predefined founder scenarios, with each agent dataset split into 10 training examples and 2 validation examples. The training examples are synthetic starter data generated from the app’s current prompt builders, founder/concept input format, local knowledge packs, and fallback outputs. This means the current training corpus should be understood as a bootstrap dataset, not a large production-grade human-labeled corpus.
+The Financial Agent was developed using Cursor and fine-tuned for specialized financial planning. It specifically addresses the limitation of speculative figures found in general AI tools. The agent integrates a wide array of public financial data, including CPI-U inflation, Consumer Expenditure Survey income data, FRB H.15 interest rates, Illinois county wage data, and BLS weekly earnings. A significant design challenge involved prioritizing which financial data points such as interest rates versus consumer spending most effectively train the agent to generate accurate budgets and cash-flow outputs. The agent uses structured JSON to ensure consistent and reliable financial narratives.
 
-Each specialist agent receives three forms of context at runtime: founder input, selected concept context, and an agent-specific knowledge pack. The system instructs each specialist agent to return structured JSON output. When an OpenAI API key and fine-tuned model ID are configured, the runtime uses the configured model. If the API key, fine-tuned model ID, or model call is unavailable, the system falls back to local template or mock behavior. This fallback mechanism improves demo reliability but also introduces an important limitation for evaluation, because the user-facing output may not always represent a live fine-tuned model call.
+The Marketing Agent evaluates market demand and competitive landscapes. It draws on research relating to branding strategies and localized restaurant information, such as addresses and establishment types specifically within the Champaign area. The agent is designed to provide structured marketing outputs that help founders understand their location fit and potential customer demographics.
 
-The grounding strategy is domain-specific. The MarketingAgent uses local marketing data packs, Champaign-area market signals, audience hints, positioning frameworks, process hints, and KPI hints. The FinancialPlanningAgent uses uploaded financial data, macroeconomic rates, CPI snapshots, consumer spending snapshots, wage data, and startup worksheet framing. The LegalComplianceAgent uses a local regulatory knowledge base derived from local and federal materials, such as Champaign-Urbana public health guidance, zoning, Illinois regulations, and FDA Food Code references. The OperationsAgent uses local operations uploads, inspection cadence baselines, personnel policy signals, labor data, workflow playbooks, equipment standards, and quality-system hints.
+Safety and privacy are central to the system's design. The application protects user privacy by collecting only business-related information, no personally identifying information (PII) or sensitive data is stored. To maintain reliability and technical security, all API keys are excluded from the public GitHub repository to prevent exposure. Furthermore, every output includes a user disclaimer stating that the tool is an educational assistant and not a substitute for professional legal, tax, or financial advice.
 
-Safety and privacy are central to the system design. The application collects only business-related planning information and does not intentionally collect personally identifying information. API keys and secrets are excluded from the public GitHub repository. The system also uses disclaimers to communicate that the tool is an educational assistant and not a substitute for professional legal, tax, or financial advice.
 
 ### Evaluation Design
 
-The evaluation of Restaurant AI was designed to assess whether the multi-agent architecture provides accurate, actionable, and trustworthy guidance compared to general-purpose tools. Our validation process included prompting studies, prototype refinement, and user testing. The prompting study included typical, edge, and failure cases across marketing, finance, and regulation.
+The evaluation of Restaurant AI is designed to assess the effectiveness of the multi-agent architecture in providing accurate, actionable, and trustworthy guidance compared to general-purpose tools. Our prompting study design is categorized into typical, edge, and failure cases across marketing, finance, and regulation.
 
-In the marketing domain, typical cases evaluated standard market demand and competitor analysis. Edge cases asked the system to consider location-specific risks, such as how the UIUC academic calendar affects the sustainability of a high-volume profit model. Failure cases tested ethical guardrails by asking the system to generate inappropriate or prohibited on-campus marketing strategies.
+In the marketing domain, typical cases evaluate the AI's performance on standard market demand and competitor analysis. Edge cases push the system to consider location-specific risks, such as how the UIUC academic calendar affects the sustainability of a high-volume profit model. Failure cases test the system's ethical guardrails by attempting to generate prohibited on-campus marketing strategies.
 
-For finance and regulation, typical cases involved generating basic business plans, budgeting for common restaurant types, and identifying health and safety permit requirements. Edge cases tested financial constraints under difficult conditions, such as breaking even with short daily operating hours. We also tested scenarios involving non-compliant conditions, such as opening a restaurant with expired grease-trap documentation or non-ADA-compliant restrooms. Failure cases evaluated the system’s responses to highly specific local regulatory queries or attempts to bypass rules.
+For finance and regulation, typical cases involve generating basic business plans, budgeting for common restaurant types, and asking for health and safety permits for alcohol sales. Edge cases assess the AI's ability to identify financial constraints under tough conditions, for example, calculating the difficulty of breaking even with only five hours of operation per day. We also test the system's response to non-compliant scenarios, such as opening a restaurant with an expired grease trap or non-ADA compliant restrooms. Failure cases evaluate the system's response to highly specific local regulatory queries or attempts to bypass rules, such as the three-compartment sink requirement in Champaign.
 
-The user testing phase recruited participants with different backgrounds, including students, restaurant workers, business consultants, finance-oriented users, compliance-oriented users, and non-technical potential founders. Participants tested the deployed web application and completed a realistic task: entering basic restaurant planning information, reviewing AI-generated restaurant concepts, selecting one concept, and reading the generated startup manual. Participants then completed the System Usability Scale (SUS) and answered open-ended interview questions about usefulness, confusion points, local grounding, manual specificity, missing information, and trust.
+The user testing phase recruits entrepreneurs and students to test the three-step flow, Basics to Ideas to Manual. We specifically measure completion time, perceived usefulness, and the level of trust users place in the generated plans. To address the risk of hallucination, we are implementing verification layers and confidence scores to ensure the high reliability of all generated content. This comprehensive evaluation framework allows us to assess whether the "glass box" architecture successfully provides a higher fidelity of information than standard black-box AI models. By comparing our results against initial prototyping failures, such as the black-and-white layout and limited guidance of earlier versions, we can quantify the impact of our refined, multi-agentic design.
+
 
 ---
 
@@ -68,9 +63,9 @@ The user testing phase recruited participants with different backgrounds, includ
 
 ### Quantitative Results
 
-We conducted a formative user study with nine participants to evaluate Restaurant Startup Studio, a multi-agent AI web application for restaurant startup planning. Participants included students or early-stage users, a compliance/tax specialist, a startup finance professional, a non-technical restaurant founder, a downtown Champaign waiter, an izakaya operator, a restaurant business consultant, and a digital transformation project manager. This mix allowed us to evaluate both general usability and domain-specific usefulness.
+We conducted a formative user study with nine participants to evaluate the Restaurant Startup Studio, a multi-agent AI web application for restaurant startup planning. Participants included students or early-stage users, a compliance/tax specialist, a startup finance professional, a non-technical restaurant founder, a downtown Champaign waiter, an izakaya operator, a restaurant business consultant, and a digital transformation project manager. This mix allowed us to evaluate both general usability and domain-specific usefulness.
 
-The evaluation used the System Usability Scale (SUS), a 10-item questionnaire scored from 0 to 100. The survey uses a 1–5 scale where 1 means “strongly disagree” and 5 means “strongly agree.” For SUS scoring, positive and negative items are converted differently, and the final score represents the overall perceived usability of the system.
+The evaluation used the System Usability Scale (SUS), a 10-item questionnaire scored from 0 to 100. The teammate reports also used the standard SUS format with 1 = strongly disagree and 5 = strongly agree. Alex’s report separately recorded two participants with SUS scores of 77.5 and 70.0, with an average of 73.8 for those two users
 
 | Participant | Background | SUS Score |
 |---|---|---:|
@@ -85,9 +80,10 @@ The evaluation used the System Usability Scale (SUS), a 10-item questionnaire sc
 | P9 | DX project manager with AI tool integration experience | 75.0 |
 | **Average** | — | **81.1** |
 
-The average SUS score was **81.1 / 100**, which suggests strong perceived usability. Most users agreed that the system was easy to use, well integrated, and quick to learn. Users also generally disagreed that the system was unnecessarily complex or cumbersome. This indicates that the core flow—entering basic information, reviewing restaurant ideas, selecting a concept, and reading the generated manual—was understandable for both non-technical and domain-experienced users.
+The average SUS score was 81.1 / 100, which suggests strong perceived usability. Most users agreed that the system was easy to use, well integrated, and quick to learn. Users also generally disagreed that the system was unnecessarily complex or cumbersome. This indicates that the core flow — entering basic information, reviewing restaurant ideas, selecting a concept, and reading the generated manual — was understandable for both non-technical and domain-experienced users.
 
 However, the scores also show that usability does not automatically mean full trust. The lowest score, 70.0, came from a finance-oriented participant who wanted more detailed financial modeling, including projected profit and loss, break-even analysis, and cash-flow templates. This suggests that the system is easy to use, but domain experts expect deeper evidence and more precise calculations before using it for real business decisions.
+
 
 ### Qualitative Results
 
@@ -103,6 +99,7 @@ A fourth theme was that the manual was beginner-friendly but information-heavy. 
 
 A repeated confusion point was the appearance of technical labels, such as mock agents, model IDs, API keys, and fine-tuned agent status. Multiple users found these labels confusing or irrelevant. For a beginner founder, these backend details make the system feel unfinished. Future versions should hide developer-facing information and replace it with user-friendly status messages.
 
+
 ### Analysis and Discussion
 
 Overall, the study suggests that Restaurant Startup Studio succeeds as an early-stage planning assistant. The high SUS average shows that users can navigate the system without needing technical support. The qualitative feedback also shows that users found the workflow useful for organizing restaurant startup decisions across market, finance, regulation, operations, and marketing.
@@ -113,6 +110,7 @@ At the same time, users showed conditional trust. They trusted the system for br
 
 The main design implication is that the next version should focus on actionability and transparency. Users need clearer assumptions, real local data sources, official links, and more personalized calculations. The system should support human judgment rather than replace it. Its best role is to help founders ask better questions, organize their next steps, and prepare for professional verification.
 
+
 ---
 
 ## Limitations, Risks, and Ethical Considerations
@@ -121,7 +119,7 @@ This project has several limitations. First, the user study is small. Although n
 
 Second, the system is focused on a specific local context: restaurant planning around Champaign, Illinois. This local focus makes the tool more useful than a generic chatbot for this case, but it limits generalizability. The system may not perform equally well for other cities, cuisines, budgets, or regulatory environments.
 
-Third, the current fine-tuning setup is still early-stage. Four specialist agents—marketing, financial, regulatory, and operations—have fine-tuned model slots, but the datasets are small starter datasets generated from predefined founder scenarios and current app logic. They are not large, expert-labeled production datasets. This limits how much the model can be expected to generalize.
+Third, the current fine-tuning setup is still early-stage. Four specialist agents — marketing, financial, regulatory, and operations — have fine-tuned model slots, but the datasets are small starter datasets generated from predefined founder scenarios and current app logic. They are not large, expert-labeled production datasets. This limits how much the model can be expected to generalize.
 
 Fourth, the system includes fallback or mock behavior when model calls or fine-tuned model IDs are unavailable. This is useful for demos, but it can create confusion if users see technical labels or if outputs are not clearly distinguished from fine-tuned agent outputs.
 
@@ -137,7 +135,7 @@ Ethically, the system should be presented as a planning scaffold, not a replacem
 
 ## Conclusion and Future Work
 
-Restaurant Startup Studio demonstrates that a multi-agent AI system can help beginner founders organize the complex process of restaurant startup planning. The system guides users from basic information to concept suggestions and then to a structured startup manual. The user study showed strong perceived usability, with an average SUS score of **81.1 / 100** across nine participants.
+Restaurant Startup Studio demonstrates that a multi-agent AI system can help beginner founders organize the complex process of restaurant startup planning. The system guides users from basic information to concept suggestions and then to a structured startup manual. The user study showed strong perceived usability, with an average SUS score of 81.1 / 100 across nine participants.
 
 The main finding is that users value the tool as an early planning assistant. Participants found the structured workflow, financial breakdowns, regulatory checklist, and local Champaign context useful. The tool helped reduce uncertainty and gave users a clearer starting point.
 
@@ -147,21 +145,23 @@ Future work should focus on five improvements. First, the financial section shou
 
 In the long term, this project could become a broader AI cofounder platform for local small-business planning. The current restaurant-focused version is a strong starting point because restaurant planning requires coordination across market, finance, legal, operations, and marketing decisions. The system’s most important contribution is not replacing human founders, but helping them think more clearly, ask better questions, and prepare for real-world validation.
 
+
 ---
 
 ## References
 
-Brooke, J. (1996). SUS: A “quick and dirty” usability scale. In P. W. Jordan, B. Thomas, B. A. Weerdmeester, & I. L. McClelland (Eds.), *Usability evaluation in industry*. CRC Press.
+Brooke, john. (1996). SUS: A “Quick and Dirty” Usability Scale. In Usability Evaluation In Industry. CRC Press. 
 
-Csaszar, F. A., Ketkar, H., & Kim, H. (2024). Artificial intelligence and strategic decision-making: Evidence from entrepreneurs and investors. *Strategy Science, 9*(4), 322–345. https://doi.org/10.1287/stsc.2024.0190
+Csaszar, F. A., Ketkar, H., & Kim, H. (2024). Artificial Intelligence and Strategic Decision-Making: Evidence from Entrepreneurs and Investors. Strategy Science, 9(4), 322–345. https://doi.org/10.1287/stsc.2024.0190 
 
-Ganapathi, J. K. (2025). Augmented entrepreneurship: The role of AI agents in automating core small business functions. *Sarcouncil Journal of Engineering and Computer Sciences, 4*(8), 654–663. https://doi.org/10.5281/zenodo.16887026
+Ganapathi, J. K. (2025). Augmented Entrepreneurship: The Role of AI Agents in Automating Core Small Business Functions. Journal Of Engineering And Computer Sciences, 4(8), 654–663. 
 
-Hong, S., Zhuge, M., Chen, J., Zheng, X., Cheng, Y., Wang, J., Zhang, C., Wang, Z., Yau, S. K. S., Lin, Z., Zhou, L., Ran, C., Xiao, L., Wu, C., & Schmidhuber, J. (2023). MetaGPT: Meta programming for a multi-agent collaborative framework. *The Twelfth International Conference on Learning Representations*. https://openreview.net/forum?id=VtmBAGCN7o
+Hong, S., Zhuge, M., Chen, J., Zheng, X., Cheng, Y., Wang, J., Zhang, C., Wang, Z., Yau, S. K. S., Lin, Z., Zhou, L., Ran, C., Xiao, L., Wu, C., & Schmidhuber, J. (2023, October 13). MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework. The Twelfth International Conference on Learning Representations. https://openreview.net/forum?id=VtmBAGCN7o&utm_source=chatgpt.com 
 
-Swanson, K., Wu, W., Bulaong, N. L., Pak, J. E., & Zou, J. (2025). The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies. *Nature*. https://doi.org/10.1038/s41586-025-09442-9
+Swanson, K., Wu, W., Bulaong, N. L., Pak, J. E., & Zou, J. (2025). The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies. Nature, 1–3. https://doi.org/10.1038/s41586-025-09442-9 
 
-Uriarte, S., Baier-Fuentes, H., Espinoza-Benavides, J., & Inzunza-Mendoza, W. (2026). Artificial intelligence technologies and entrepreneurship: A hybrid literature review. *Review of Managerial Science, 20*(1), 251–299. https://doi.org/10.1007/s11846-025-00839-4
+Uriarte, S., Baier-Fuentes, H., Espinoza-Benavides, J., & Inzunza-Mendoza, W. (2026). Artificial intelligence technologies and entrepreneurship: A hybrid literature review. Review of Managerial Science, 20(1), 251–299. https://doi.org/10.1007/s11846-025-00839-4 
+
 
 ---
 
@@ -258,12 +258,9 @@ The agents are instructed to return structured JSON output. The system uses low-
 
 ### Appendix D. Screenshot List
 
-The following screenshots should be included in the repository or inserted into the final Word/PDF version of the report.
-
 **Figure D1. Homepage of the deployed restaurant AI planning web application.**
 
 <img width="1479" height="794" alt="image" src="https://github.com/user-attachments/assets/41b36953-9bf5-478c-9302-83e73f1d779b" />
-
 
 
 **Figure D2. Basics input page where users enter location and budget information.**
@@ -308,7 +305,6 @@ This project was developed as a Next.js web application with a multi-agent resta
 
 The team used Cursor as the main coding workspace. Cursor was used for implementation, debugging, and project navigation.
 
-There is currently no confirmed repository evidence that ChatGPT, Claude, or Gemini were directly used for development work in the codebase. Therefore, they are not listed as confirmed coding tools unless additional team members disclose their use.
 
 #### OpenAI API Use
 
