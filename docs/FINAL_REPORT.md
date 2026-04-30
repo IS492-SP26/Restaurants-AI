@@ -268,15 +268,18 @@ The following screenshots should be included in the repository or inserted into 
 
 **Figure D2. Basics input page where users enter location and budget information.**
 
-`[Insert screenshot or link to image here]`
+<img width="910" height="907" alt="image" src="https://github.com/user-attachments/assets/cab8e03a-aa5b-4a6d-a640-365a513e258a" />
+
 
 **Figure D3. AI-generated restaurant concept suggestions.**
 
-`[Insert screenshot or link to image here]`
+<img width="841" height="886" alt="image" src="https://github.com/user-attachments/assets/55ba38de-1740-48a0-8c70-7dbac01a3429" />
+
 
 **Figure D4. Generated startup manual page.**
 
-`[Insert screenshot or link to image here]`
+<img width="908" height="908" alt="image" src="https://github.com/user-attachments/assets/4d1622ce-e5d3-4bb9-9b9f-11ff1fdca85d" />
+
 
 **Figure D5. Example financial planning section.**
 
