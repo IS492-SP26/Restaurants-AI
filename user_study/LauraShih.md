@@ -100,6 +100,5 @@ Scale: 1 = Strongly disagree, 5 = Strongly agree.
 
 - Interview responses are recorded as raw open-ended feedback.
 - Open-ended interview questions do not have numerical scores.
-- SUS survey scores should be filled in after the completed rating sheets are collected.
 - Participants are anonymized as P1 and P2.
 - The SUS score scale is: 1 = Strongly disagree, 5 = Strongly agree.
