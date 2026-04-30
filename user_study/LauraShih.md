@@ -51,16 +51,16 @@ Scale: 1 = Strongly disagree, 5 = Strongly agree.
 
 | SUS Question | Score |
 |---|---:|
-| 1. I think that I would like to use this system frequently. | TBD |
-| 2. I found the system unnecessarily complex. | TBD |
-| 3. I thought the system was easy to use. | TBD |
-| 4. I think that I would need the support of a technical person to be able to use this system. | TBD |
-| 5. I found the various functions in this system were well integrated. | TBD |
-| 6. I thought there was too much inconsistency in this system. | TBD |
-| 7. I would imagine that most people would learn to use this system very quickly. | TBD |
-| 8. I found the system very cumbersome to use. | TBD |
-| 9. I felt very confident using the system. | TBD |
-| 10. I needed to learn a lot of things before I could get going with this system. | TBD |
+| 1. I think that I would like to use this system frequently. | 4 |
+| 2. I found the system unnecessarily complex. | 2 |
+| 3. I thought the system was easy to use. | 5 |
+| 4. I think that I would need the support of a technical person to be able to use this system. | 1 |
+| 5. I found the various functions in this system were well integrated. | 5 |
+| 6. I thought there was too much inconsistency in this system. | 1 |
+| 7. I would imagine that most people would learn to use this system very quickly. | 4 |
+| 8. I found the system very cumbersome to use. | 1 |
+| 9. I felt very confident using the system. | 5 |
+| 10. I needed to learn a lot of things before I could get going with this system. | 1 |
 
 ---
 
@@ -83,16 +83,16 @@ Scale: 1 = Strongly disagree, 5 = Strongly agree.
 
 | SUS Question | Score |
 |---|---:|
-| 1. I think that I would like to use this system frequently. | TBD |
-| 2. I found the system unnecessarily complex. | TBD |
-| 3. I thought the system was easy to use. | TBD |
-| 4. I think that I would need the support of a technical person to be able to use this system. | TBD |
-| 5. I found the various functions in this system were well integrated. | TBD |
-| 6. I thought there was too much inconsistency in this system. | TBD |
-| 7. I would imagine that most people would learn to use this system very quickly. | TBD |
-| 8. I found the system very cumbersome to use. | TBD |
-| 9. I felt very confident using the system. | TBD |
-| 10. I needed to learn a lot of things before I could get going with this system. | TBD |
+| 1. I think that I would like to use this system frequently. | 4 |
+| 2. I found the system unnecessarily complex. | 1 |
+| 3. I thought the system was easy to use. | 5 |
+| 4. I think that I would need the support of a technical person to be able to use this system. | 1 |
+| 5. I found the various functions in this system were well integrated. | 5 |
+| 6. I thought there was too much inconsistency in this system. | 1 |
+| 7. I would imagine that most people would learn to use this system very quickly. | 5 |
+| 8. I found the system very cumbersome to use. | 1 |
+| 9. I felt very confident using the system. | 5 |
+| 10. I needed to learn a lot of things before I could get going with this system. | 2 |
 
 ---
 
