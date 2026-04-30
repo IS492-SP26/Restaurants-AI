@@ -4,11 +4,9 @@
 
 This document summarizes qualitative feedback from two participants who tested the Multi-Agent Restaurant Launch Planning Tool. Participants were asked to use the tool and answer post-task interview questions about usefulness, clarity, trust, local grounding, and improvement opportunities.
 
-> Note: We also used the System Usability Scale (SUS) form as part of the evaluation materials. The uploaded SUS PDFs show the standard 10-item SUS questionnaire format. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
-
 ---
 
-# Participant 1: Viral
+# Participant 1
 
 ## Raw Feedback
 
@@ -46,7 +44,7 @@ This document summarizes qualitative feedback from two participants who tested t
 
 ---
 
-# Participant 2: Yukta
+# Participant 2
 
 ## Raw Feedback
 
